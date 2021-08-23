@@ -1,0 +1,76 @@
+body{
+    background: #000000;
+}
+
+form{
+    border: solid rgb(185, 41, 178) 3px;
+    border-radius: 5%;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 8%;
+    box-shadow: 0 0 0 3px #1900ff;}
+.content{
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+    
+}
+.content .head{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive; 
+    text-shadow: 4px 3px 2px #1900ff;
+}
+
+.content .others .mail input,
+.content .others .password input{
+    text-align: center;
+    height: 20px;
+    background: black;
+    color: white;
+    border-color: #1900ff;
+    border-radius: 15px;
+}
+.content .others p a,
+.content .others h4 a{
+    color: white; 
+    text-decoration: none
+}
+.content button{
+    height: 25px;
+    width: 80px;
+    color: white;
+    border-radius: 100%;
+    background: black;
+    border-color: #1900ff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #1900ff;
+}
+.content button:hover {background-color: #1900ff}
+
+button:active {
+  background-color: #1900ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+@media (max-width:486px) {
+    form{
+        height:470px;
+        width: 300px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 25%;
+    }
+    .content{
+        margin-top: 0%;
+        margin-bottom: 5%;
+        color: white;
+        text-align: center;
+        
+    }
+    .content .resp{
+        margin-top: 10%;
+    }
+}
